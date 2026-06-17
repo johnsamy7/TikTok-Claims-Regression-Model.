@@ -1,6 +1,6 @@
 # TikTok-Claims-Regression-Model.
 
-#overview 
+<h3>Overview</h3>
 
 Context: Building an ML model to classify videos as claims or opinions to reduce report backlogs.
 
@@ -8,7 +8,7 @@ Objective: Analyzing how video characteristics relate to an author's verificatio
 
 Methodology: Utilized a baseline Logistic Regression model to predict verification status and discover key feature trends.
 
-#project statues  
+<h3>project statues</h3>  
 
 EDA & Cleaning: Capped engagement outliers and addressed a severe $93.7% class imbalance using a 50/50 upsampling technique.
 
@@ -18,7 +18,7 @@ Data Split: Divided data into a 75/25 train/test split and applied One-Hot Encod
 
 
 
-#next steps
+<h3>next steps</h3>
 
 Pipeline Integration: Port video duration weights into the main claim-vs-opinion model to refine classification.
 
@@ -26,7 +26,7 @@ Model Upgrades: Test advanced algorithms (e.g., Random Forest, XGBoost) to impro
 
 Queue Automation: Deploy a high-recall 84% threshold to automatically filter trusted accounts from urgent moderation queues.
 
-#key insights 
+<h3>key insights</h3> 
 
 Video Duration Matters: Longer videos increase the log-odds of a user being verified 0.0086 coefficient for video_duration_sec).
 Engagement Disconnect: High video view, share, and comment counts show a negligible independent correlation with an author's verification status, proving that viral engagement metrics alone do not inherently dictate whether an account gets verified. 
